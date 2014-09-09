@@ -55,15 +55,17 @@ img {
 }
 
 .sectiontitle{
- color: #bebebe;
+ color: #868484;
  text-transform: uppercase;
  font-size: 0.8rem;    
 }
 
 .infolist{
  list-style: none;
- margin: 1rem;
- padding: 0;    
+ margin: 1rem;    
+ padding: 0;
+ padding-bottom: 1rem;    
+    
 }
 
 .infolist .section{
@@ -73,11 +75,15 @@ img {
 
 .section1{
  border-right: 1px solid #d0d0d0;
- padding-right: 3rem;        
+ padding-right: 3rem;    
 }
 
 .section2{
  border-right: 1px solid #d0d0d0;
- padding-right: 3rem;    
-   
+ padding-right: 3rem;
+ padding-left: 0.5rem;    
+}
+
+.section3{
+ padding-left: 0.5rem;   
 }
